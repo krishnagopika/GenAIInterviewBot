@@ -1,0 +1,10 @@
+python-dotenv
+langchain == 0.0.330
+langchain-experimental
+openai >=1.6.1
+langchain-core
+langchain-community
+langchain-openai
+huggingface_hub
+tensorflow
+transformers
