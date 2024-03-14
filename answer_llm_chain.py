@@ -11,7 +11,7 @@ from model import llm
 
 # output_parser = JsonOutputParser(pydantic_object=Score)
 
-answer_prompt = PromptTemplate(template = """Question: {question}, Answer: {answer} evaluate the question for the given question, and return the score in percentage ranging [0,100]
+answer_prompt = PromptTemplate(template = """Question: {question}, Answer: {answer} evaluate the answer for the given question, and return the score in a percentage ranging [0,100]
                                           """, input_variables=["question","answer"])
 
 
